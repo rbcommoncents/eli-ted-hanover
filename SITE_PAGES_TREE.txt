@@ -1,0 +1,35 @@
+eli-ted-hanover/
+├── index.html                         [EXISTING — untouched]
+├── life-story/
+│   ├── index.html                         [SECTION HUB]
+│   ├── chapter-1-early-years/index.html
+│   ├── chapter-2-carlton-park/index.html
+│   ├── chapter-3-merchant-marine/index.html
+│   ├── chapter-4-promoter/index.html
+│   └── chapter-5-baltimore/index.html
+├── baltimore/
+│   ├── index.html                         [SECTION HUB]
+│   ├── the-block/index.html
+│   └── venues/index.html
+├── boxing/
+│   ├── index.html                         [SECTION HUB]
+│   ├── 1960s-70s-era/index.html
+│   ├── fighters-and-promoters/index.html
+│   ├── posters-and-programs/index.html
+│   ├── memorial-award/index.html
+│   └── timeline/index.html
+├── family/
+│   ├── index.html                         [SECTION HUB]
+│   ├── family-photos/index.html
+│   ├── genealogy/index.html
+│   └── obituaries/index.html
+├── archive/
+│   ├── index.html                         [SECTION HUB]
+│   ├── documents/index.html
+│   └── media-gallery/index.html
+└── accredation-acknowledgements/
+    ├── index.html                         [SECTION HUB]
+    └── posts/index.html
+
+Shared new file: assets/css/page-framework.css
+Existing homepage and existing assets/css/site.css are NOT overwritten.
