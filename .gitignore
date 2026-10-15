@@ -91,12 +91,26 @@ Thumbs.db
 !.env.example
 
 # ------------------------------------------------------------
-# 10. PUBLIC WEBSITE ASSETS
+# 10. HISTORICAL MEDIA — PENDING PUBLICATION REVIEW
 # ------------------------------------------------------------
 
-# Approved public images remain tracked:
-# assets/images/eli/
-# assets/images/family/
-# assets/images/boxing/
-# assets/images/baltimore/
-# assets/images/graphics/
+# Protect imported archival images until approved
+/assets/images/eli/
+/assets/images/family/
+/assets/images/boxing/
+/assets/images/baltimore/
+/assets/images/documents/
+/assets/images/graphics/
+
+# Protect the full archival inventory
+/data/media/
+
+# ------------------------------------------------------------
+# 11. APPROVED PUBLIC MEDIA
+# ------------------------------------------------------------
+
+# Only reviewed and approved images are published here.
+/assets/images/public/ 
+
+# Allow Git to track approved public images
+!/assets/images/public/
