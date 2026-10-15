@@ -1,0 +1,102 @@
+# ============================================================
+# ELI "TED" HANOVER WEBSITE
+# Git Ignore Configuration
+# ============================================================
+
+# ------------------------------------------------------------
+# 1. PRIVATE HISTORICAL ARCHIVE
+# ------------------------------------------------------------
+
+.archive-staging/
+archive-private/
+private-media/
+originals/
+backups/
+wordpress-backups/
+
+# Media batch archives
+eli-hanover-media-batch-*.zip
+eli-hanover-assets-import-*.zip
+
+# ------------------------------------------------------------
+# 2. UNAPPROVED MEDIA
+# ------------------------------------------------------------
+
+assets/images/pending-review/
+assets/images/private/
+assets/images/unpublished/
+
+# ------------------------------------------------------------
+# 3. PRIVATE HISTORICAL DOCUMENTS
+# ------------------------------------------------------------
+
+assets/documents/private/
+assets/documents/pending-review/
+
+# ------------------------------------------------------------
+# 4. WORDPRESS BACKUPS AND DATABASES
+# ------------------------------------------------------------
+
+*.sql
+*.sql.gz
+*.wpress
+*.bak
+*.backup
+
+# ------------------------------------------------------------
+# 5. MEDIA INVENTORY WORKING FILES
+# ------------------------------------------------------------
+
+data/private/
+data/staging/
+
+# Keep approved publication inventories tracked
+!data/media-inventory.csv
+!data/media-inventory.json
+
+# ------------------------------------------------------------
+# 6. PYTHON DEVELOPMENT
+# ------------------------------------------------------------
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# ------------------------------------------------------------
+# 7. SYSTEM AND EDITOR FILES
+# ------------------------------------------------------------
+
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+
+# ------------------------------------------------------------
+# 8. TEMPORARY FILES
+# ------------------------------------------------------------
+
+*.tmp
+*.temp
+*.log
+
+# ------------------------------------------------------------
+# 9. LOCAL ENVIRONMENT AND SECRETS
+# ------------------------------------------------------------
+
+.env
+.env.*
+!.env.example
+
+# ------------------------------------------------------------
+# 10. PUBLIC WEBSITE ASSETS
+# ------------------------------------------------------------
+
+# Approved public images remain tracked:
+# assets/images/eli/
+# assets/images/family/
+# assets/images/boxing/
+# assets/images/baltimore/
+# assets/images/graphics/
