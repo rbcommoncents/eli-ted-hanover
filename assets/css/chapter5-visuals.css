@@ -1,0 +1,12 @@
+/* Eli Hanover / Chapter 5 — archival images in narrative sections */
+.eth-ch5-figure{margin:1.75rem 0 2.15rem;border:1px solid #e3dac5;background:#f9f5ec;box-shadow:0 13px 32px rgba(52,48,42,.09);overflow:hidden;border-radius:6px}
+.eth-ch5-figure__image{background:#eae2d5;min-height:160px;display:flex;justify-content:center;align-items:center}
+.eth-ch5-figure img{display:block;max-width:100%;width:100%;height:auto;max-height:540px;object-fit:contain}
+.eth-ch5-figure--portrait img{max-height:450px;object-fit:contain}
+.eth-ch5-figure figcaption{padding:.85rem 1.1rem 1rem;font:400 .9rem/1.5 system-ui,-apple-system,sans-serif;color:#34302a;border-top:1px solid #e3dac5}
+.eth-ch5-figure figcaption span{display:block;color:#7c684d;font-size:.82rem;margin-top:.2rem}
+.eth-ch5-figure__missing{display:none;color:#705f49;font:500 .9rem system-ui,sans-serif;padding:2rem;text-align:center}
+.eth-ch5-figure--missing img{display:none}
+.eth-ch5-figure--missing .eth-ch5-figure__missing{display:block}
+@media(min-width:980px){.story-body .eth-ch5-figure--portrait{max-width:540px;margin-left:auto;margin-right:auto}}
+@media(max-width:640px){.eth-ch5-figure{margin:1.1rem 0 1.4rem}}

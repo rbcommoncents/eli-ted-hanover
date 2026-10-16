@@ -1,40 +1,46 @@
 # ============================================================
-# ELI "TED" HANOVER WEBSITE
-# Git Ignore Configuration
+# ELI "TED" HANOVER — HISTORICAL WEBSITE
+# Repository Privacy and Development Exclusions
 # ============================================================
 
 # ------------------------------------------------------------
-# 1. PRIVATE HISTORICAL ARCHIVE
+# 1. PRIVATE ARCHIVES AND RESEARCH
 # ------------------------------------------------------------
 
-.archive-staging/
-archive-private/
-private-media/
-originals/
-backups/
-wordpress-backups/
+/.archive-staging/
+/archive-private/
+/private-media/
+/originals/
+/backups/
+/wordpress-backups/
+/research/
 
-# Media batch archives
+# Historical media packages
 eli-hanover-media-batch-*.zip
 eli-hanover-assets-import-*.zip
 
 # ------------------------------------------------------------
-# 2. UNAPPROVED MEDIA
+# 2. HISTORICAL IMAGES — PRIVATE BY DEFAULT
 # ------------------------------------------------------------
 
-assets/images/pending-review/
-assets/images/private/
-assets/images/unpublished/
+# Ignore all immediate children of the image directory.
+/assets/images/*
+
+# Explicit exception for approved public media.
+!/assets/images/public/
 
 # ------------------------------------------------------------
-# 3. PRIVATE HISTORICAL DOCUMENTS
+# 3. MEDIA INVENTORIES AND RESEARCH DATA
 # ------------------------------------------------------------
 
-assets/documents/private/
-assets/documents/pending-review/
+# Keep archival metadata private by default.
+/data/*
+
+# Approved publication metadata may go here.
+!/data/public/
 
 # ------------------------------------------------------------
-# 4. WORDPRESS BACKUPS AND DATABASES
+# 4. WORDPRESS AND DATABASE BACKUPS
 # ------------------------------------------------------------
 
 *.sql
@@ -44,18 +50,7 @@ assets/documents/pending-review/
 *.backup
 
 # ------------------------------------------------------------
-# 5. MEDIA INVENTORY WORKING FILES
-# ------------------------------------------------------------
-
-data/private/
-data/staging/
-
-# Keep approved publication inventories tracked
-!data/media-inventory.csv
-!data/media-inventory.json
-
-# ------------------------------------------------------------
-# 6. PYTHON DEVELOPMENT
+# 5. PYTHON DEVELOPMENT FILES
 # ------------------------------------------------------------
 
 __pycache__/
@@ -63,27 +58,34 @@ __pycache__/
 .venv/
 venv/
 .pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
 # ------------------------------------------------------------
-# 7. SYSTEM AND EDITOR FILES
-# ------------------------------------------------------------
-
-.DS_Store
-Thumbs.db
-*~
-*.swp
-*.swo
-
-# ------------------------------------------------------------
-# 8. TEMPORARY FILES
+# 6. TEMPORARY AND GENERATED FILES
 # ------------------------------------------------------------
 
 *.tmp
 *.temp
 *.log
+*.old
+*.orig
+*.rej
+*.swp
+*.swo
+*~
 
 # ------------------------------------------------------------
-# 9. LOCAL ENVIRONMENT AND SECRETS
+# 7. OPERATING SYSTEM AND EDITOR FILES
+# ------------------------------------------------------------
+
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+
+# ------------------------------------------------------------
+# 8. LOCAL ENVIRONMENT AND SECRETS
 # ------------------------------------------------------------
 
 .env
@@ -91,26 +93,22 @@ Thumbs.db
 !.env.example
 
 # ------------------------------------------------------------
-# 10. HISTORICAL MEDIA — PENDING PUBLICATION REVIEW
+# 9. PUBLICATION POLICY
 # ------------------------------------------------------------
 
-# Protect imported archival images until approved
-/assets/images/eli/
-/assets/images/family/
-/assets/images/boxing/
-/assets/images/baltimore/
-/assets/images/documents/
-/assets/images/graphics/
-
-# Protect the full archival inventory
-/data/media/
-
-# ------------------------------------------------------------
-# 11. APPROVED PUBLIC MEDIA
-# ------------------------------------------------------------
-
-# Only reviewed and approved images are published here.
-/assets/images/public/ 
-
-# Allow Git to track approved public images
-!/assets/images/public/
+# The following website files remain trackable:
+#
+# /index.html
+# /life-story/
+# /boxing/
+# /baltimore/
+# /family/
+# /archive/
+# /accredation-acknowledgements/
+# /assets/css/
+# /assets/js/
+# /assets/images/public/
+# /data/public/
+#
+# Private historical originals must not be staged.
+# Approved copies belong in /assets/images/public/.
