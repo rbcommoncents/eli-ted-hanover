@@ -1,0 +1,114 @@
+# ============================================================
+# ELI "TED" HANOVER — HISTORICAL WEBSITE
+# Repository Privacy and Development Exclusions
+# ============================================================
+
+# ------------------------------------------------------------
+# 1. PRIVATE ARCHIVES AND RESEARCH
+# ------------------------------------------------------------
+
+/.archive-staging/
+/archive-private/
+/private-media/
+/originals/
+/backups/
+/wordpress-backups/
+/research/
+
+# Historical media packages
+eli-hanover-media-batch-*.zip
+eli-hanover-assets-import-*.zip
+
+# ------------------------------------------------------------
+# 2. HISTORICAL IMAGES — PRIVATE BY DEFAULT
+# ------------------------------------------------------------
+
+# Ignore all immediate children of the image directory.
+/assets/images/*
+
+# Explicit exception for approved public media.
+!/assets/images/public/
+
+# ------------------------------------------------------------
+# 3. MEDIA INVENTORIES AND RESEARCH DATA
+# ------------------------------------------------------------
+
+# Keep archival metadata private by default.
+/data/*
+
+# Approved publication metadata may go here.
+!/data/public/
+
+# ------------------------------------------------------------
+# 4. WORDPRESS AND DATABASE BACKUPS
+# ------------------------------------------------------------
+
+*.sql
+*.sql.gz
+*.wpress
+*.bak
+*.backup
+
+# ------------------------------------------------------------
+# 5. PYTHON DEVELOPMENT FILES
+# ------------------------------------------------------------
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ------------------------------------------------------------
+# 6. TEMPORARY AND GENERATED FILES
+# ------------------------------------------------------------
+
+*.tmp
+*.temp
+*.log
+*.old
+*.orig
+*.rej
+*.swp
+*.swo
+*~
+
+# ------------------------------------------------------------
+# 7. OPERATING SYSTEM AND EDITOR FILES
+# ------------------------------------------------------------
+
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+
+# ------------------------------------------------------------
+# 8. LOCAL ENVIRONMENT AND SECRETS
+# ------------------------------------------------------------
+
+.env
+.env.*
+!.env.example
+
+# ------------------------------------------------------------
+# 9. PUBLICATION POLICY
+# ------------------------------------------------------------
+
+# The following website files remain trackable:
+#
+# /index.html
+# /life-story/
+# /boxing/
+# /baltimore/
+# /family/
+# /archive/
+# /accredation-acknowledgements/
+# /assets/css/
+# /assets/js/
+# /assets/images/public/
+# /data/public/
+#
+# Private historical originals must not be staged.
+# Approved copies belong in /assets/images/public/.
