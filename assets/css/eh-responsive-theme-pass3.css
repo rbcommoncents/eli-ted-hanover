@@ -72,3 +72,45 @@ html[data-eh-theme="dark"] .time-interlude h2,
 html[data-eh-theme="dark"] .story.story-family h2 {
     -webkit-text-fill-color: #34302a !important;
 }
+
+
+/* ==========================================================
+   ELI HANOVER — HOMEPAGE STORY CONTRAST FIX
+   Cream-background story sections in dark mode
+   ========================================================== */
+
+/* All light-background story panels */
+html[data-eh-theme="dark"] .story.story-baltimore,
+html[data-eh-theme="dark"] .story.story-family {
+    color: #34302a !important;
+}
+
+/* Titles and introductory copy */
+html[data-eh-theme="dark"] .story.story-baltimore :is(h1,h2,h3,p,em,blockquote),
+html[data-eh-theme="dark"] .story.story-family :is(h1,h2,h3,p,em,blockquote) {
+    color: #34302a !important;
+    -webkit-text-fill-color: #34302a !important;
+    opacity: 1 !important;
+}
+
+/* All nested text elements, including custom story subtitles */
+html[data-eh-theme="dark"] .story.story-baltimore :is(.story-side,.story-copy,.story-lead,.story-description) *,
+html[data-eh-theme="dark"] .story.story-family :is(.story-side,.story-copy,.story-lead,.story-description) * {
+    color: #34302a !important;
+    -webkit-text-fill-color: #34302a !important;
+    opacity: 1 !important;
+}
+
+/* Preserve readable gold accents */
+html[data-eh-theme="dark"] .story.story-baltimore :is(.eyebrow,a),
+html[data-eh-theme="dark"] .story.story-family :is(.eyebrow,a) {
+    color: #956a22 !important;
+    -webkit-text-fill-color: #956a22 !important;
+}
+
+/* Preserve the introductory timeline heading */
+html[data-eh-theme="dark"] .time-interlude h2 {
+    color: #34302a !important;
+    -webkit-text-fill-color: #34302a !important;
+    opacity: 1 !important;
+}
