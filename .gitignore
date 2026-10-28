@@ -83,6 +83,11 @@ venv/
 Thumbs.db
 .vscode/*
 !.vscode/extensions.json
+tools
+media/curated
+eli-hanover-curated-media-v1
+eli-hanover-media-reconciliation-v2
+
 
 # ------------------------------------------------------------
 # 8. LOCAL ENVIRONMENT AND SECRETS
@@ -112,3 +117,27 @@ Thumbs.db
 #
 # Private historical originals must not be staged.
 # Approved copies belong in /assets/images/public/.
+
+# Production release hygiene
+/REPORT/
+/release-audit/
+/.archive-staging/
+/research/
+/photo-publication-status.csv
+/photo-placement-approval.csv
+/*-production-source.zip
+/*-production-pass*.zip
+/*-responsive-theme-pass*.zip
+/eli-hanover-curated-media-v1/
+/eli-hanover-media-reconciliation-v2/
+
+# Local HTML snapshots
+*.before-*.bak
+*.before-*.html
+
+/data/public/*.backup-*.json
+/data/public/*.before-*.json
+/media-catalog.csv
+/REPORT/
+/research/
+/*.zip

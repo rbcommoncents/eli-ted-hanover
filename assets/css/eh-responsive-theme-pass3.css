@@ -1,0 +1,37 @@
+/* Eli Hanover — pass 3, responsive images and shared two-theme compatibility. */
+/* The homepage features a portrait, not a cropped decorative background. */
+.documentary-site .story-art-portrait{min-width:0;max-width:100%;overflow:visible}
+.documentary-site .story-art-portrait > img.eth-art-photo{display:block!important;position:relative!important;inset:auto!important;width:100%!important;height:auto!important;max-height:min(75svh,760px)!important;object-fit:contain!important;object-position:center!important;filter:none!important}
+/* Hide legacy ornaments when the actual documentary image is available. */
+.documentary-site .story-art:has(> img.eth-art-photo) > :is(.portrait-initials,.asset-note,.skyline,.city-type,.boxing-ropes,.boxing-type,.photo-stack){display:none!important}
+/* No fixed canvas height or cover cropping for documentary hero images. */
+@media(max-width:760px){
+ .documentary-site .story-layout{display:grid!important;grid-template-columns:minmax(0,1fr)!important;gap:20px!important}
+ .documentary-site .story-layout > :is(.story-copy,.story-art){grid-column:1!important;min-width:0!important;width:100%!important}
+ .documentary-site .story-layout .story-number{grid-column:1!important}
+ .documentary-site .story-art > img.eth-art-photo{display:block!important;position:relative!important;inset:auto!important;max-width:100%!important;width:100%!important;height:auto!important;max-height:70svh!important;object-fit:contain!important;object-position:center!important}
+ .documentary-site .story-art{min-width:0!important;height:auto!important;min-height:0!important;max-width:100%!important;overflow:hidden!important}
+}
+/* Restore the intended Chapter 3 reading width without affecting homepage grids. */
+body:not(.documentary-site) .content .story-layout{display:grid!important;grid-template-columns:minmax(0,1fr) 245px!important;gap:clamp(18px,3vw,48px)!important;align-items:start!important;width:100%!important}
+body:not(.documentary-site) .content .story-layout > .story-body{width:100%!important;max-width:74ch!important;min-width:0!important;grid-column:1!important}
+body:not(.documentary-site) .content .story-layout > .story-side{width:100%!important;min-width:0!important;grid-column:2!important;position:sticky;top:100px}
+@media(max-width:850px){body:not(.documentary-site) .content .story-layout{display:block!important}body:not(.documentary-site) .content .story-layout>.story-side{position:static!important;margin-top:28px}}
+/* Consistent uncropped archival images on media, boxing, family and chapter exhibits. */
+#photo-grid .photo-card img,.fp-grid .fp-tile img,.eth-visual-media img,.eth-chapter-gallery img,.eh-replacement-figure img{max-width:100%!important;object-fit:contain!important;object-position:center!important}
+#photo-grid .photo-card img{background:#e9e0d0}
+@media(max-width:550px){#photo-grid .photo-card img,.fp-grid .fp-tile img{height:auto!important;max-height:none!important}}
+/* Shared media themes: pair foreground and background explicitly; do not recolor iframe contents. */
+html[data-eh-theme="dark"] :is(.eh-media-page,.fp-gallery-section,.fp-next,.collection){background:var(--eh-page,#211f1c)!important;color:var(--eh-ink,#f1e9da)!important}
+html[data-eh-theme="dark"] :is(.media-card,.photo-card,.fp-tile,.fp-links a,.eh-clip,.eh-video-card,.eh-curated-card,.curated-card){background:var(--eh-paper,#302c27)!important;color:var(--eh-ink,#f1e9da)!important;border-color:var(--eh-line,#64594a)!important}
+html[data-eh-theme="dark"] :is(.fp-heading,.fp-heading h2,.fp-next h2,.heading h2,.media-card h3,.photo-card h3,.fp-tile-title,.eh-clip h3){color:var(--eh-ink,#f1e9da)!important}
+html[data-eh-theme="dark"] :is(.fp-intro,.fp-count,.heading>p:last-child,.media-card p,.photo-card p,.fp-tile-description){color:var(--eh-muted,#c3b9a9)!important}
+html[data-eh-theme="dark"] :is(.fp-controls input,.fp-dialog,.fp-modal-meta){background:var(--eh-paper,#302c27)!important;color:var(--eh-ink,#f1e9da)!important;border-color:var(--eh-line,#64594a)!important}
+html[data-eh-theme="dark"] :is(.fp-modal-meta p,.fp-modal-actions span){color:var(--eh-muted,#c3b9a9)!important}
+html[data-eh-theme="dark"] .eh-media-page .menu{background:var(--eh-paper,#302c27)!important;border-color:var(--eh-line,#64594a)!important}
+html[data-eh-theme="dark"] .eh-media-page .menu a{color:var(--eh-ink,#f1e9da)!important;border-color:var(--eh-line,#64594a)!important}
+html[data-eh-theme="dark"] .eh-media-page .menu a:is(:hover,:focus-visible){background:#453b30!important;color:#fff9ee!important}
+/* Home copy must be legible on its deliberately dark cinematic panels. */
+html[data-eh-theme="dark"] .documentary-site .story-copy > p:not(.section-kicker){color:#d9cbbb!important}
+html[data-eh-theme="dark"] .documentary-site .story-copy > .story-standfirst{color:#e1c88a!important}
+@media(prefers-reduced-motion:reduce){.fp-tile,.media-card,.photo-card{transition:none!important}}

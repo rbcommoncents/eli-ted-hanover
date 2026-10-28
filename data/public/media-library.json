@@ -142,7 +142,8 @@
       "alt": "Woman seated on a rock beside a lake with mountains in the background.",
       "date": "",
       "approved": true,
-      "category": "family"
+      "category": "family",
+      "review_status": "bulk-approved-awaiting-individual-review"
     },
     {
       "id": "family-outdoor",
@@ -152,7 +153,8 @@
       "alt": "Two women standing outside a brick building, one holding a small animal.",
       "date": "",
       "approved": true,
-      "category": "family"
+      "category": "family",
+      "review_status": "bulk-approved-awaiting-individual-review"
     },
     {
       "id": "photo-eth-por-0001",
@@ -160,7 +162,8 @@
       "src": "assets/images/public/eli/ETH-POR-0001__Eli-Ted-Hanover-as-a-young-man-Baltimore.jpg",
       "alt": "Young Eli Ted Hanover",
       "category": "family",
-      "approved": true
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
     },
     {
       "id": "photo-bal-his-0002",
@@ -168,7 +171,8 @@
       "src": "assets/images/public/baltimore/BAL-HIS-0002__pussy-cat-club.jpg",
       "alt": "Pussy Cat Club — archival image",
       "category": "baltimore",
-      "approved": true
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
     },
     {
       "id": "photo-bal-his-0004",
@@ -176,7 +180,8 @@
       "src": "assets/images/public/baltimore/BAL-HIS-0004__Baltimore-inner-harbor-night.png",
       "alt": "Baltimore Inner Harbor at night",
       "category": "baltimore",
-      "approved": true
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
     },
     {
       "id": "photo-bal-his-0005",
@@ -184,7 +189,8 @@
       "src": "assets/images/public/baltimore/BAL-HIS-0005__baltimore_1906.jpg",
       "alt": "Historic Baltimore — labeled 1906",
       "category": "baltimore",
-      "approved": true
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
     },
     {
       "id": "photo-box-her-0003",
@@ -192,7 +198,8 @@
       "src": "assets/images/public/boxing/BOX-HER-0003__boxing-record-2.jpg",
       "alt": "Historical boxing record",
       "category": "boxing",
-      "approved": true
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
     },
     {
       "id": "photo-box-her-0009",
@@ -200,7 +207,8 @@
       "src": "assets/images/public/boxing/BOX-HER-0009__boxing-promoting-poster.png",
       "alt": "Boxing promotion poster",
       "category": "boxing",
-      "approved": true
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
     },
     {
       "id": "photo-box-her-0014",
@@ -208,7 +216,8 @@
       "src": "assets/images/public/boxing/BOX-HER-0014__memorial-award.png",
       "alt": "Memorial award",
       "category": "memorials",
-      "approved": true
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
     },
     {
       "id": "photo-han-eli-0001",
@@ -216,7 +225,8 @@
       "src": "assets/images/public/family/HAN-ELI-0001__Eli-and-Frances-Hanover.jpg",
       "alt": "Eli and Frances Hanover",
       "category": "family",
-      "approved": true
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
     },
     {
       "id": "photo-han-eli-0003",
@@ -224,7 +234,1185 @@
       "src": "assets/images/public/family/HAN-ELI-0003__Eli-Ted-and-wife-Frances-Hannah-Michaelson.jpg",
       "alt": "Eli and Frances — archival photograph",
       "category": "family",
-      "approved": true
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-bal-his-0001-sabatinos",
+      "title": "Sabatinos",
+      "description": "",
+      "src": "assets/images/public/baltimore/BAL-HIS-0001__Sabatinos.jpg",
+      "alt": "",
+      "date": "",
+      "category": "baltimore",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-bal-his-0003-smittys-today",
+      "title": "smittys today",
+      "description": "",
+      "src": "assets/images/public/baltimore/BAL-HIS-0003__smittys-today.jpg",
+      "alt": "",
+      "date": "",
+      "category": "baltimore",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-bal-his-0006-baltimore-shipyard",
+      "title": "baltimore shipyard",
+      "description": "",
+      "src": "assets/images/public/baltimore/BAL-HIS-0006__baltimore_shipyard.jpg",
+      "alt": "",
+      "date": "",
+      "category": "baltimore",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-bal-his-0007-bread-lines-great-depression",
+      "title": "bread lines great depression",
+      "description": "",
+      "src": "assets/images/public/baltimore/BAL-HIS-0007__bread-lines-great-depression.jpg",
+      "alt": "",
+      "date": "",
+      "category": "baltimore",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-bal-his-0008-immagrants-on-ship",
+      "title": "Immagrants on ship",
+      "description": "",
+      "src": "assets/images/public/baltimore/BAL-HIS-0008__Immagrants_on_ship.jpg",
+      "alt": "",
+      "date": "",
+      "category": "baltimore",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-bal-his-0009-jewel-box-v2",
+      "title": "jewel box v2",
+      "description": "",
+      "src": "assets/images/public/baltimore/BAL-HIS-0009__jewel-box-v2.jpg",
+      "alt": "",
+      "date": "",
+      "category": "baltimore",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-bal-his-0010-patterson-park-1939-arial",
+      "title": "patterson park 1939 arial",
+      "description": "",
+      "src": "assets/images/public/baltimore/BAL-HIS-0010__patterson_park_1939_arial.jpg",
+      "alt": "",
+      "date": "",
+      "category": "baltimore",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-bal-his-0011-shady-alley",
+      "title": "shady alley",
+      "description": "",
+      "src": "assets/images/public/baltimore/BAL-HIS-0011__shady_alley.jpg",
+      "alt": "",
+      "date": "",
+      "category": "baltimore",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-bal-his-0012-the-block-1",
+      "title": "the block 1",
+      "description": "",
+      "src": "assets/images/public/baltimore/BAL-HIS-0012__the-block-1.png",
+      "alt": "",
+      "date": "",
+      "category": "baltimore",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-box-her-0001-20210225-183059-1-1",
+      "title": "20210225 183059 1 1",
+      "description": "",
+      "src": "assets/images/public/boxing/BOX-HER-0001__20210225_183059-1-1.jpg",
+      "alt": "",
+      "date": "",
+      "category": "boxing",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-box-her-0002-baltimore-boxing-legacy-pg-108",
+      "title": "Baltimore Boxing Legacy pg 108",
+      "description": "",
+      "src": "assets/images/public/boxing/BOX-HER-0002__Baltimore-Boxing-Legacy-pg-108-.jpg",
+      "alt": "",
+      "date": "",
+      "category": "boxing",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-box-her-0004-img-2833",
+      "title": "IMG 2833",
+      "description": "",
+      "src": "assets/images/public/boxing/BOX-HER-0004__IMG_2833.jpg",
+      "alt": "",
+      "date": "",
+      "category": "boxing",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-box-her-0005-eli-with-other-promotors",
+      "title": "eli with other promotors",
+      "description": "",
+      "src": "assets/images/public/boxing/BOX-HER-0005__eli-with-other-promotors.jpg",
+      "alt": "",
+      "date": "",
+      "category": "boxing",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-box-her-0006-1979-1",
+      "title": "1979 1",
+      "description": "",
+      "src": "assets/images/public/boxing/BOX-HER-0006__1979-1.png",
+      "alt": "",
+      "date": "",
+      "category": "boxing",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-box-her-0007-1979-2",
+      "title": "1979 2",
+      "description": "",
+      "src": "assets/images/public/boxing/BOX-HER-0007__1979-2.png",
+      "alt": "",
+      "date": "",
+      "category": "boxing",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-box-her-0008-1979-3",
+      "title": "1979 3",
+      "description": "",
+      "src": "assets/images/public/boxing/BOX-HER-0008__1979-3.png",
+      "alt": "",
+      "date": "",
+      "category": "boxing",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-box-her-0010-memorial-2",
+      "title": "memorial 2",
+      "description": "",
+      "src": "assets/images/public/boxing/BOX-HER-0010__memorial-2.png",
+      "alt": "",
+      "date": "",
+      "category": "boxing",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-box-her-0011-memorial-3",
+      "title": "memorial 3",
+      "description": "",
+      "src": "assets/images/public/boxing/BOX-HER-0011__memorial-3.png",
+      "alt": "",
+      "date": "",
+      "category": "boxing",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-box-her-0012-memorial-4",
+      "title": "memorial 4",
+      "description": "",
+      "src": "assets/images/public/boxing/BOX-HER-0012__memorial-4.png",
+      "alt": "",
+      "date": "",
+      "category": "boxing",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-box-her-0013-memorial-5",
+      "title": "memorial 5",
+      "description": "",
+      "src": "assets/images/public/boxing/BOX-HER-0013__memorial-5.png",
+      "alt": "",
+      "date": "",
+      "category": "boxing",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-box-her-0015-si-1",
+      "title": "SI 1",
+      "description": "",
+      "src": "assets/images/public/boxing/BOX-HER-0015__SI-1.png",
+      "alt": "",
+      "date": "",
+      "category": "boxing",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-box-her-0016-si-2",
+      "title": "SI 2",
+      "description": "",
+      "src": "assets/images/public/boxing/BOX-HER-0016__SI-2.png",
+      "alt": "",
+      "date": "",
+      "category": "boxing",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-box-her-0017-si-3",
+      "title": "SI 3",
+      "description": "",
+      "src": "assets/images/public/boxing/BOX-HER-0017__SI-3.png",
+      "alt": "",
+      "date": "",
+      "category": "boxing",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-box-her-0018-si-4",
+      "title": "SI 4",
+      "description": "",
+      "src": "assets/images/public/boxing/BOX-HER-0018__SI-4.png",
+      "alt": "",
+      "date": "",
+      "category": "boxing",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-box-her-0019-si-5",
+      "title": "SI 5",
+      "description": "",
+      "src": "assets/images/public/boxing/BOX-HER-0019__SI-5.png",
+      "alt": "",
+      "date": "",
+      "category": "boxing",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-box-her-0020-si-6",
+      "title": "SI 6",
+      "description": "",
+      "src": "assets/images/public/boxing/BOX-HER-0020__SI-6.png",
+      "alt": "",
+      "date": "",
+      "category": "boxing",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-box-her-0021-jerry-quarry",
+      "title": "Jerry Quarry",
+      "description": "",
+      "src": "assets/images/public/boxing/BOX-HER-0021__Jerry-Quarry.jpg",
+      "alt": "",
+      "date": "",
+      "category": "boxing",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-box-her-0022-leo",
+      "title": "Leo",
+      "description": "",
+      "src": "assets/images/public/boxing/BOX-HER-0022__Leo.png",
+      "alt": "",
+      "date": "",
+      "category": "boxing",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-box-her-0023-lou-benson",
+      "title": "Lou Benson",
+      "description": "",
+      "src": "assets/images/public/boxing/BOX-HER-0023__Lou-Benson.jpeg",
+      "alt": "",
+      "date": "",
+      "category": "boxing",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-box-her-0024-larry-middleton",
+      "title": "Larry Middleton",
+      "description": "",
+      "src": "assets/images/public/boxing/BOX-HER-0024__Larry-Middleton.jpg",
+      "alt": "",
+      "date": "",
+      "category": "boxing",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-box-her-0025-larry-middlton-vs-jimmy-ellis",
+      "title": "larry middlton vs jimmy ellis",
+      "description": "",
+      "src": "assets/images/public/boxing/BOX-HER-0025__larry-middlton-vs-jimmy-ellis.jpg",
+      "alt": "",
+      "date": "",
+      "category": "boxing",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-box-her-0026-middleton-larry",
+      "title": "Middleton Larry",
+      "description": "",
+      "src": "assets/images/public/boxing/BOX-HER-0026__Middleton_Larry.jpg",
+      "alt": "",
+      "date": "",
+      "category": "boxing",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-box-her-0027-eddie-hrica",
+      "title": "Eddie Hrica",
+      "description": "",
+      "src": "assets/images/public/boxing/BOX-HER-0027__Eddie-Hrica.jpg",
+      "alt": "",
+      "date": "",
+      "category": "boxing",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-box-her-0028-joe-frazier-studio-portrait",
+      "title": "Joe Frazier studio portrait",
+      "description": "",
+      "src": "assets/images/public/boxing/BOX-HER-0028__Joe_Frazier_studio_portrait.jpg",
+      "alt": "",
+      "date": "",
+      "category": "boxing",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-box-her-0029-muhammad-ali-1960",
+      "title": "muhammad ali 1960",
+      "description": "",
+      "src": "assets/images/public/boxing/BOX-HER-0029__muhammad_ali_1960.jpg",
+      "alt": "",
+      "date": "",
+      "category": "boxing",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-box-her-0030-wba-fight-night",
+      "title": "wba fight night",
+      "description": "",
+      "src": "assets/images/public/boxing/BOX-HER-0030__wba-fight-night.jpg",
+      "alt": "",
+      "date": "",
+      "category": "boxing",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-box-her-0031-youth-boxing",
+      "title": "youth boxing",
+      "description": "",
+      "src": "assets/images/public/boxing/BOX-HER-0031__youth-boxing.png",
+      "alt": "",
+      "date": "",
+      "category": "boxing",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-boxing-promoting-poster",
+      "title": "boxing promoting poster",
+      "description": "",
+      "src": "assets/images/public/boxing/boxing-promoting-poster.png",
+      "alt": "",
+      "date": "",
+      "category": "boxing",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-eli-boxing-archive",
+      "title": "eli boxing archive",
+      "description": "",
+      "src": "assets/images/public/boxing/eli-boxing-archive.jpg",
+      "alt": "",
+      "date": "",
+      "category": "boxing",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-eth-por-0002-eli-unknown-date",
+      "title": "Eli unknown date",
+      "description": "",
+      "src": "assets/images/public/eli/ETH-POR-0002__Eli-unknown-date.jpg",
+      "alt": "",
+      "date": "",
+      "category": "eli",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-eth-por-0003-eli-hanover",
+      "title": "eli hanover",
+      "description": "",
+      "src": "assets/images/public/eli/ETH-POR-0003__eli_hanover.jpg",
+      "alt": "",
+      "date": "",
+      "category": "eli",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-eth-por-0004-img-8031",
+      "title": "IMG 8031",
+      "description": "",
+      "src": "assets/images/public/eli/ETH-POR-0004__IMG_8031.jpg",
+      "alt": "",
+      "date": "",
+      "category": "eli",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-eth-por-0005-pre-war-eli-thumbnail",
+      "title": "pre war eli thumbnail",
+      "description": "",
+      "src": "assets/images/public/eli/ETH-POR-0005__pre-war-eli_thumbnail.jpg",
+      "alt": "",
+      "date": "",
+      "category": "eli",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-eth-por-0006-young-eli",
+      "title": "young eli",
+      "description": "",
+      "src": "assets/images/public/eli/ETH-POR-0006__young_eli.jpg",
+      "alt": "",
+      "date": "",
+      "category": "eli",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-eli-0002-eli-ted-and-frances-hannah-michaelson-hanover-with-first-daughter-gail-ann-at-2-years-old-in-baltimore-1",
+      "title": "Eli Ted and Frances Hannah Michaelson Hanover with first daughter Gail Ann at 2 years old in Baltimore(1)",
+      "description": "",
+      "src": "assets/images/public/family/HAN-ELI-0002__Eli-Ted-and-Frances-Hannah-Michaelson-Hanover-with-first-daughter-Gail-Ann-at-2-years-old-in-Baltimore(1).jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-eli-0004-frances-hannah-michaelson-and-eli-ted-hanover",
+      "title": "Frances Hannah Michaelson and Eli Ted Hanover",
+      "description": "",
+      "src": "assets/images/public/family/HAN-ELI-0004__Frances-Hannah-Michaelson-and-Eli-Ted-Hanover.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-eli-0005-frances-hannah-s-sister-rayzella-michaelson-gordon-and-eli-ted",
+      "title": "Frances Hannah’s sister Rayzella Michaelson Gordon and Eli Ted",
+      "description": "",
+      "src": "assets/images/public/family/HAN-ELI-0005__Frances-Hannah’s-sister-Rayzella-Michaelson-Gordon-and-Eli-Ted.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-eli-0006-img-7852",
+      "title": "IMG 7852",
+      "description": "",
+      "src": "assets/images/public/family/HAN-ELI-0006__IMG_7852.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-eli-0007-eli-and-frances",
+      "title": "eli and frances",
+      "description": "",
+      "src": "assets/images/public/family/HAN-ELI-0007__eli-and-frances.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": false,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-eli-0008-eli-sitting-down-eating-dinner",
+      "title": "eli sitting down eating dinner",
+      "description": "",
+      "src": "assets/images/public/family/HAN-ELI-0008__eli_sitting_down_eating_dinner.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0001-frances-hannah-at-her-sister-rayzella-s-wedding-also-lee-michelson-kaplan-and-mary-michelson-smith-frances-paternal-aunts",
+      "title": "Frances Hannah at her sister Rayzella’s wedding. Also Lee Michelson Kaplan and Mary Michelson Smith Frances’ paternal Aunts",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0001__Frances-Hannah-at-her-sister-Rayzella’s-wedding.-Also-Lee-Michelson-Kaplan-and-Mary-Michelson-Smith-Frances’-paternal-Aunts.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0002-3-of-eli-ted-and-frances-hannah-s-daughters",
+      "title": "3 of Eli Ted and Frances Hannah’s daughters.",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0002__3-of-Eli-Ted-and-Frances-Hannah’s-daughters..png",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0003-bernard-hanover",
+      "title": "Bernard Hanover",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0003__Bernard-Hanover.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0004-eli-and-frances-hannah-s-new-son-in-law-kenneth-ira-shane-12-23-73",
+      "title": "Eli and Frances Hannah’s new son in law. Kenneth Ira Shane. 12 23 73",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0004__Eli-and-Frances-Hannah’s-new-son-in-law.-Kenneth-Ira-Shane.-12-23-73.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0005-eli-ted-and-frances-hannah-s-daughter-married-david-laurence-hoatson-on-8-26-89",
+      "title": "Eli Ted and Frances Hannah’s daughter married David Laurence Hoatson on 8 26 89",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0005__Eli-Ted-and-Frances-Hannah’s-daughter-married-David-Laurence-Hoatson-on-8-26-89.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0006-eli-ted-hanover-s-grand-son-michael-is-sitting-in-eli-s-chair-and-eli-ted-hanover-s-nephew-paul-now-sits-in-the-same-office",
+      "title": "Eli Ted Hanover’s grand son Michael is sitting in Eli’s chair. And Eli Ted Hanover’s nephew Paul now sits in the same office.",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0006__Eli-Ted-Hanover’s-grand-son-Michael-is-sitting-in-Eli’s-chair.-And-Eli-Ted-Hanover’s-nephew-Paul-now-sits-in-the-same-office..jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": false,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0007-family-picture-at-the-wedding-minus-the-bride-and-groom-kenneth-ira-shane",
+      "title": "Family picture at the wedding minus the bride and groom Kenneth Ira Shane",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0007__Family-picture-at-the-wedding-minus-the-bride-and-groom-Kenneth-Ira-Shane.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0008-frances-father",
+      "title": "Frances father",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0008__Frances-father.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0009-one-of-eli-and-frances-daughters",
+      "title": "One of Eli and Frances daughters",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0009__One-of-Eli-and-Frances-daughters.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0010-one-of-eli-and-frances-daughters-2",
+      "title": "One of Eli and Frances daughters 2",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0010__One-of-Eli-and-Frances-daughters-2.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0011-ryzella-wedding",
+      "title": "Ryzella wedding",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0011__Ryzella-wedding.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0012-kenneth",
+      "title": "Kenneth",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0012__Kenneth.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0013-david-son-in-law",
+      "title": "David son in law",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0013__David-son-in-law.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": false,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0014-grandson",
+      "title": "grandson",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0014__grandson.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": false,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0015-michael-with-nephew",
+      "title": "michael with nephew",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0015__michael-with-nephew.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0016-nephew-in-office",
+      "title": "nephew in office",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0016__nephew-in-office.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0017-nephew-with-family",
+      "title": "nephew with family",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0017__nephew-with-family.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0018-nephew-with-golden-gloves",
+      "title": "nephew with golden gloves",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0018__nephew-with-golden-gloves.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0019-son",
+      "title": "son",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0019__son.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0020-lou-benson",
+      "title": "Lou Benson",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0020__Lou-Benson.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0021-125sa0nqh9a-0",
+      "title": "Son and Daughter Brunch",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0021__125sa0nqh9a-0.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0022-family-photo-2",
+      "title": "family photo",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0022__family_photo-2.jpeg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0023-img-2703",
+      "title": "",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0023__IMG_2703.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0024-img-8434",
+      "title": "IMG 8434",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0024__IMG_8434.jpeg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0025-1000005369",
+      "title": "1000005369",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0025__1000005369.png",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0026-1000005370",
+      "title": "1000005370",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0026__1000005370.png",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0027-hanover",
+      "title": "hanover",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0027__hanover.png",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0028-img-6266-1",
+      "title": "IMG 6266 1",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0028__IMG_6266-1.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0029-img-6843",
+      "title": "IMG 6843",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0029__IMG_6843.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0030-img-7812",
+      "title": "IMG 7812",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0030__IMG_7812.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0031-img-7929",
+      "title": "IMG 7929",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0031__IMG_7929.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0032-img-7930",
+      "title": "IMG 7930",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0032__IMG_7930.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0033-abe-michealson-0001",
+      "title": "abe michealson 0001",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0033__abe_michealson_0001.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0034-ella-hanover",
+      "title": "Ella hanover",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0034__Ella_hanover.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0035-frances-hanover",
+      "title": "frances hanover",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0035__frances_hanover.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0036-frances-hanover-0001",
+      "title": "frances hanover 0001",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0036__frances_hanover_0001.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0037-full-hanover-and-michealson-portrait",
+      "title": "full hanover and michealson portrait",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0037__full_hanover_and_michealson_portrait.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0038-hanover-babies-and-older-relative",
+      "title": "hanover babies and older relative",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0038__hanover_babies_and_older_relative.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0039-hanover-family-0001",
+      "title": "Hanover family 0001",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0039__Hanover_family_0001.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0040-hanover-family-dinner",
+      "title": "hanover family dinner",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0040__hanover_family_dinner.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0041-hanover-family-portrait-0002",
+      "title": "hanover family portrait 0002",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0041__hanover_family_portrait_0002.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0042-img-8207",
+      "title": "IMG 8207",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0042__IMG_8207.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0043-img-8220",
+      "title": "IMG 8220",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0043__IMG_8220.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0044-large-hanover-family-portrait",
+      "title": "large hanover family portrait",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0044__large_hanover_family_portrait.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0045-rabbi",
+      "title": "rabbi",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0045__rabbi.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0046-site-author",
+      "title": "Site Author",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0046__Site_Author.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0047-unknown-1",
+      "title": "unknown 1",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0047__unknown_1.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0048-unknown-2",
+      "title": "unknown 2",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0048__unknown_2.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0049-unknown-family-photo",
+      "title": "unknown family photo",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0049__unknown_family_photo.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0050-unknown-portrait",
+      "title": "unknown portrait",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0050__unknown_portrait.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-han-fam-0051-yetta",
+      "title": "yetta",
+      "description": "",
+      "src": "assets/images/public/family/HAN-FAM-0051__yetta.jpg",
+      "alt": "",
+      "date": "",
+      "category": "family",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-eth-sea-0001-liberty-ship-1941",
+      "title": "liberty ship 1941",
+      "description": "",
+      "src": "assets/images/public/maritime/ETH-SEA-0001__liberty-ship-1941.jpg",
+      "alt": "",
+      "date": "",
+      "category": "maritime",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-eth-sea-0002-merchant-marine",
+      "title": "merchant marine",
+      "description": "",
+      "src": "assets/images/public/maritime/ETH-SEA-0002__merchant-marine.jpg",
+      "alt": "",
+      "date": "",
+      "category": "maritime",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-eth-sea-0003-service-member-return-from-war-1945",
+      "title": "service member return from war 1945",
+      "description": "",
+      "src": "assets/images/public/maritime/ETH-SEA-0003__service-member-return-from-war-1945.jpg",
+      "alt": "",
+      "date": "",
+      "category": "maritime",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-eth-mem-0001-img-0067",
+      "title": "IMG 0067",
+      "description": "",
+      "src": "assets/images/public/memorials/ETH-MEM-0001__IMG_0067.jpg",
+      "alt": "",
+      "date": "",
+      "category": "memorials",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-eth-mem-0002-img-0069-1",
+      "title": "IMG 0069 1",
+      "description": "",
+      "src": "assets/images/public/memorials/ETH-MEM-0002__IMG_0069-1.jpg",
+      "alt": "",
+      "date": "",
+      "category": "memorials",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
+    },
+    {
+      "id": "photo-eth-mem-0003-img-0071",
+      "title": "IMG 0071",
+      "description": "",
+      "src": "assets/images/public/memorials/ETH-MEM-0003__IMG_0071.jpg",
+      "alt": "",
+      "date": "",
+      "category": "memorials",
+      "approved": true,
+      "review_status": "bulk-approved-awaiting-individual-review"
     }
   ],
   "legacy_youtube_candidates": [

@@ -1,0 +1,8 @@
+/* Approved images replacing v3 archival placeholders. Keeps responsive source layouts. */
+.eh-archive-figure{margin:0;min-width:0}
+.eh-archive-figure img{display:block;width:100%;height:auto;max-height:420px;object-fit:contain;background:#ebe2d2;border:1px solid #d8cbaa;border-radius:4px}
+.eh-archive-figure figcaption{font:400 .83rem/1.55 system-ui,sans-serif;color:#655e53;margin-top:.55rem}
+html[data-eh-theme="dark"] .eh-archive-figure figcaption{color:#c3b9a9}
+.ey-photo-slot .eh-archive-figure,.ring-image-slot .eh-archive-figure,.promoter-display .eh-archive-figure,.legacy-archive .eh-archive-figure{min-width:0}
+.sea-family .eh-archive-figure{max-width:360px;margin:0 0 1rem}
+@media (max-width:640px){.eh-archive-figure img{max-height:320px}}
