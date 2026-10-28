@@ -1,0 +1,10 @@
+/* Eli Hanover production refinements — interior pages only */
+.production-story{max-width:74ch;margin:2rem 0 1.6rem;padding:1.5rem 1.7rem;background:#fffaf0;border-left:4px solid #b89450;border-radius:0 8px 8px 0;color:#34302a}
+.production-story h2{margin:0 0 .75rem;font:700 clamp(1.4rem,3vw,2rem)/1.25 Georgia,serif;color:#34302a}
+.production-story p{margin:.7rem 0;color:#40392f}
+.eh-replacement-figure{margin:1.5rem 0;background:#f9f5ec;padding:1rem;border:1px solid #e3dac5;border-radius:8px;max-width:740px}
+.eh-replacement-figure img{display:block;max-width:100%;width:100%;max-height:460px;object-fit:contain;background:#e9e0d0}
+.eh-replacement-figure figcaption{padding:.6rem .25rem 0;font: .9rem/1.5 system-ui,sans-serif;color:#51483d}
+html[data-eh-theme="dark"] .production-story{background:#302c27;border-color:#b89450;color:#f1e9da}
+html[data-eh-theme="dark"] .production-story :is(h2,p){color:#f1e9da}
+@media(max-width:600px){.production-story{padding:1.2rem}.eh-replacement-figure{padding:.5rem}}
