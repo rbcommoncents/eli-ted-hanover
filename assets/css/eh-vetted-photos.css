@@ -1,0 +1,10 @@
+
+/* V3 curated photography — paired foreground and background colors */
+.eh-vetted-photos{margin:clamp(2rem,5vw,4rem) 0;padding:clamp(1rem,3vw,2rem);border:1px solid var(--eh-line,#e3dac5);border-radius:14px;background:var(--eh-paper,#fffdf7);color:var(--eh-ink,#34302a)}
+.eh-vetted-photos h2,.eh-vetted-photos p{color:inherit!important}
+.eh-vetted-photos__grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,240px),1fr));gap:1.25rem}
+.eh-vetted-photos figure{margin:0;min-width:0}
+.eh-vetted-photos img{display:block;width:100%;height:auto;max-height:400px;object-fit:contain;background:#211f1c;border-radius:9px}
+.eh-vetted-photos figcaption{font:inherit;font-size:.93rem;line-height:1.5;color:var(--eh-ink,#34302a)!important;margin-top:.65rem}
+html[data-eh-theme=dark] .eh-vetted-photos{background:#302c27;color:#f1e9da;border-color:#64594a}
+html[data-eh-theme=dark] .eh-vetted-photos figcaption{color:#f1e9da!important}

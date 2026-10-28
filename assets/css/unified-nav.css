@@ -1,0 +1,20 @@
+/* Shared Eli Hanover navigation. Scoped to .eh-global-nav to avoid page theme collisions. */
+.eh-global-nav,.eh-global-nav *{box-sizing:border-box}
+.eh-global-nav{position:sticky;top:0;z-index:10000;width:100%;background:#f9f5ec;color:#34302a;border-bottom:1px solid #e3dac5;box-shadow:0 3px 20px #201e1a15;font-family:system-ui,-apple-system,"Segoe UI",sans-serif;font-size:15px;line-height:1.35}
+.eh-global-nav .eh-nav-inner{width:min(1200px,calc(100% - 32px));margin:auto;min-height:76px;display:flex;justify-content:space-between;align-items:center;gap:24px}
+.eh-global-nav a{text-decoration:none;color:#34302a}
+.eh-global-nav .eh-brand{display:flex;align-items:center;gap:12px;flex-shrink:0;color:#34302a;font-weight:750;letter-spacing:-.02em}
+.eh-global-nav .eh-mark{display:grid;place-items:center;width:42px;height:42px;background:#34302a;color:#e1c88a;border:1px solid #b89450;border-radius:10px;font-family:Georgia,serif;font-size:20px}
+.eh-global-nav .eh-brand-text{display:flex;flex-direction:column;line-height:1.15}
+.eh-global-nav .eh-brand-text small{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#756950;margin-top:5px;font-weight:600}
+.eh-global-nav .eh-links{display:flex;align-items:center;justify-content:flex-end;gap:3px;flex-wrap:wrap}
+.eh-global-nav .eh-links a{font-size:14px;font-weight:650;border-radius:7px;padding:11px 10px;white-space:nowrap;transition:background-color .15s,color .15s}
+.eh-global-nav .eh-links a:hover,.eh-global-nav .eh-links a:focus-visible{background:#eae0cc;color:#201d19}
+.eh-global-nav .eh-links a[aria-current="page"]{background:#eae0cc;box-shadow:inset 0 -2px 0 #b89450}
+.eh-global-nav .eh-links a.eh-featured{background:#34302a;color:#f9f5ec;border:1px solid #b89450;padding:10px 14px}
+.eh-global-nav .eh-links a.eh-featured:hover,.eh-global-nav .eh-links a.eh-featured:focus-visible{background:#5a4934;color:#fff}
+.eh-global-nav .eh-toggle{display:none;border:1px solid #c9b995;color:#34302a;background:#fffdf7;border-radius:8px;padding:10px 13px;font:inherit;font-weight:700;cursor:pointer}
+.eh-global-nav :focus-visible{outline:3px solid #b89450;outline-offset:3px}
+@media(max-width:1040px){.eh-global-nav .eh-nav-inner{flex-wrap:wrap;min-height:68px;padding:10px 0;gap:8px}.eh-global-nav .eh-toggle{display:inline-flex;align-items:center;gap:8px}.eh-global-nav .eh-links{display:none;flex-basis:100%;width:100%;align-items:stretch;flex-direction:column;padding:8px 0 12px;border-top:1px solid #e3dac5;gap:2px}.eh-global-nav .eh-links.is-open{display:flex}.eh-global-nav .eh-links a{width:100%;padding:12px 14px;font-size:15px}.eh-global-nav .eh-links a.eh-featured{align-self:stretch;text-align:center}.eh-global-nav .eh-brand{min-width:0}}
+@media(max-width:400px){.eh-global-nav .eh-brand-text{font-size:13px}.eh-global-nav .eh-brand-text small{font-size:9px}.eh-global-nav .eh-mark{width:36px;height:36px}.eh-global-nav .eh-toggle{padding:8px}}
+@media(prefers-reduced-motion:reduce){.eh-global-nav *{transition:none!important}}

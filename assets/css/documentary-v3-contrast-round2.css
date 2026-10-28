@@ -1,0 +1,49 @@
+/* Eli Hanover v3.0.2 — paired-surface contrast repair.
+   Loaded after documentary-v3.css. Explicitly scoped by page and theme. */
+/* Home: muted text never inherits the old light-only muted token in dark mode. */
+html[data-eh-theme="dark"] .chapter-intro {background:var(--eh-page)!important;color:var(--eh-ink)!important}
+html[data-eh-theme="dark"] .chapter-intro h2{color:var(--eh-ink)!important}
+html[data-eh-theme="dark"] .chapter-intro>p:not(.section-kicker){color:var(--eh-muted)!important}
+html[data-eh-theme="dark"] .chapter-intro .theme-jump{background:var(--eh-paper)!important;border-color:var(--eh-line)!important}
+html[data-eh-theme="dark"] .chapter-intro .theme-jump a{color:var(--eh-ink)!important;border-color:var(--eh-line)!important}
+html[data-eh-theme="light"] .chapter-intro>p:not(.section-kicker){color:#655e53!important}
+/* MEDIA: its dark documentary hero is intentionally dark in BOTH themes.
+   Counteracts v3.0.1's generic light .hero foreground override. */
+html[data-eh-theme="light"] body.eh-media-page .hero,
+html[data-eh-theme="dark"] body.eh-media-page .hero {background:radial-gradient(circle at 85% 10%,#61513a 0,transparent 45%),linear-gradient(125deg,#262421,#383027 62%,#191917)!important;color:#f8f0e3!important}
+html[data-eh-theme] body.eh-media-page .hero :is(h1,h2,h3,.lead,.note){color:#f8f0e3!important}
+html[data-eh-theme] body.eh-media-page .hero .eyebrow{color:#e1c88a!important}
+html[data-eh-theme] body.eh-media-page .hero h1 em{color:#e1c88a!important}
+/* Media collection navigation is a light paper surface in both themes. */
+html[data-eh-theme] body.eh-media-page .menu{background:#fffaf0!important;color:#34302a!important;border-color:#e3dac5!important}
+html[data-eh-theme] body.eh-media-page .menu a{color:#34302a!important;border-color:#e3dac5!important}
+html[data-eh-theme] body.eh-media-page .menu a:hover{background:#eee3ce!important;color:#241f18!important}
+html[data-eh-theme] body.eh-media-page .menu a span{color:#886121!important}
+/* Dark media body: keep all foreground and background together. */
+html[data-eh-theme="dark"] body.eh-media-page :is(.collection,.heading){color:var(--eh-ink)!important}
+html[data-eh-theme="dark"] body.eh-media-page .collection{background:var(--eh-page)!important}
+html[data-eh-theme="dark"] body.eh-media-page .heading :is(h2,h3){color:var(--eh-ink)!important}
+html[data-eh-theme="dark"] body.eh-media-page .heading p:not(.eyebrow){color:var(--eh-muted)!important}
+/* BOXING: picture and narrative hero are intentionally dark in both themes.
+   Old light-only contrast applies ONLY to boxed, pale sections. */
+html[data-eh-theme] body.eh-boxing-page .bx-hero {background:radial-gradient(circle at 90% 10%,#574832 0,transparent 39%),#34302a!important;color:#f9f5ec!important}
+html[data-eh-theme] body.eh-boxing-page .bx-hero :is(h1,p,.bx-lead,.bx-hero-note){color:#f9f5ec!important}
+html[data-eh-theme] body.eh-boxing-page .bx-hero :is(.bx-eyebrow,h1 em){color:#e1c88a!important}
+html[data-eh-theme] body.eh-boxing-page .bx-hero .bx-primary{color:#302718!important}
+html[data-eh-theme] body.eh-boxing-page .bx-hero .bx-outline{color:#f9f5ec!important}
+html[data-eh-theme] body.eh-boxing-page .bx-hero-art figcaption{color:#e8d9c2!important}
+/* Pale boxing nav is always pale, even when the rest of the page is dark. */
+html[data-eh-theme] body.eh-boxing-page .bx-subnav{background:#eee5d2!important;color:#34302a!important;border-color:#cdbf9f!important}
+html[data-eh-theme] body.eh-boxing-page .bx-subnav a{color:#34302a!important}
+html[data-eh-theme] body.eh-boxing-page .bx-subnav a:hover{color:#77531c!important}
+/* Rest of boxing in dark mode uses coherent paired surfaces. */
+html[data-eh-theme="dark"] body.eh-boxing-page .bx-section:not(.bx-dark){background:var(--eh-page)!important;color:var(--eh-ink)!important}
+html[data-eh-theme="dark"] body.eh-boxing-page .bx-section:not(.bx-dark) :is(h2,h3){color:var(--eh-ink)!important}
+html[data-eh-theme="dark"] body.eh-boxing-page :is(.bx-copy,.bx-intro){color:var(--eh-muted)!important}
+html[data-eh-theme="dark"] body.eh-boxing-page .bx-card{background:var(--eh-paper)!important;color:var(--eh-ink)!important;border-color:var(--eh-line)!important}
+html[data-eh-theme="dark"] body.eh-boxing-page .bx-card p{color:var(--eh-muted)!important}
+html[data-eh-theme="dark"] body.eh-boxing-page .bx-dark{background:#34302a!important;color:#f9f5ec!important}
+html[data-eh-theme="dark"] body.eh-boxing-page .bx-dark p{color:#e8dac6!important}
+html[data-eh-theme="dark"] body.eh-boxing-page .bx-end{background:var(--eh-paper)!important;color:var(--eh-ink)!important}
+/* Keep responsive controls easy to recognize and tap. */
+@media(max-width:1120px){.eh-global-nav .eh-toggle{min-width:90px;justify-content:center}.eh-global-nav .eh-links.is-open a{min-height:44px}}

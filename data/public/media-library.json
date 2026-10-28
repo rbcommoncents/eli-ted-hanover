@@ -1,0 +1,484 @@
+{
+  "version": 2,
+  "videos": [
+    {
+      "id": "youtube-8VbESZSavUE",
+      "title": "Music recording — title pending verification",
+      "description": "Music video or performance. Exact recording details and its connection to the collection require review.",
+      "youtube_id": "8VbESZSavUE",
+      "type": "youtube",
+      "approved": true,
+      "collection": "new-submissions",
+      "media_section": "music"
+    },
+    {
+      "id": "youtube-6xoCaVKfRPw",
+      "title": "Music recording — title pending verification",
+      "description": "Music video or performance. Exact recording details and its connection to the collection require review.",
+      "youtube_id": "6xoCaVKfRPw",
+      "type": "youtube",
+      "approved": true,
+      "collection": "new-submissions",
+      "media_section": "music"
+    },
+    {
+      "id": "youtube-9eL8JuoNP3w",
+      "title": "Music recording — title pending verification",
+      "description": "Music video or performance. Exact recording details and its connection to the collection require review.",
+      "youtube_id": "9eL8JuoNP3w",
+      "type": "youtube",
+      "approved": true,
+      "collection": "new-submissions",
+      "media_section": "music"
+    },
+    {
+      "id": "youtube-9fAZJWV1tkI",
+      "title": "Video 04 — title pending verification",
+      "description": "YouTube link supplied for the Eli Hanover media collection. Title and historical context pending review.",
+      "youtube_id": "9fAZJWV1tkI",
+      "type": "youtube",
+      "approved": true,
+      "collection": "new-submissions",
+      "media_section": "review"
+    },
+    {
+      "id": "youtube-z96qe75LOF8",
+      "title": "Music recording — title pending verification",
+      "description": "Music video or performance. Exact recording details and its connection to the collection require review.",
+      "youtube_id": "z96qe75LOF8",
+      "type": "youtube",
+      "approved": true,
+      "collection": "new-submissions",
+      "media_section": "music"
+    },
+    {
+      "id": "youtube-plJGqiwqLIw",
+      "title": "Video 06 — title pending verification",
+      "description": "YouTube link supplied for the Eli Hanover media collection. Title and historical context pending review.",
+      "youtube_id": "plJGqiwqLIw",
+      "type": "youtube",
+      "approved": true,
+      "collection": "new-submissions",
+      "media_section": "review"
+    },
+    {
+      "id": "youtube-oPW9xYEyijQ",
+      "title": "Video 07 — title pending verification",
+      "description": "YouTube link supplied for the Eli Hanover media collection. Title and historical context pending review.",
+      "youtube_id": "oPW9xYEyijQ",
+      "type": "youtube",
+      "approved": true,
+      "collection": "new-submissions",
+      "media_section": "review"
+    },
+    {
+      "id": "youtube-ZSxxvjcDxAI",
+      "title": "Video 08 — title pending verification",
+      "description": "YouTube link supplied for the Eli Hanover media collection. Title and historical context pending review.",
+      "youtube_id": "ZSxxvjcDxAI",
+      "type": "youtube",
+      "approved": true,
+      "collection": "new-submissions",
+      "media_section": "review"
+    },
+    {
+      "id": "youtube-dsr3u_f4nKA",
+      "title": "Video 09 — title pending verification",
+      "description": "YouTube link supplied for the Eli Hanover media collection. Title and historical context pending review.",
+      "youtube_id": "dsr3u_f4nKA",
+      "type": "youtube",
+      "approved": true,
+      "collection": "new-submissions",
+      "media_section": "review"
+    },
+    {
+      "id": "youtube-waUjBY1oaOE",
+      "title": "Video 10 — title pending verification",
+      "description": "YouTube link supplied for the Eli Hanover media collection. Title and historical context pending review.",
+      "youtube_id": "waUjBY1oaOE",
+      "type": "youtube",
+      "approved": true,
+      "collection": "new-submissions",
+      "media_section": "review"
+    },
+    {
+      "id": "youtube-vMTEtDBHGY4",
+      "title": "Video 11 — title pending verification",
+      "description": "YouTube link supplied for the Eli Hanover media collection. Title and historical context pending review.",
+      "youtube_id": "vMTEtDBHGY4",
+      "type": "youtube",
+      "approved": true,
+      "collection": "new-submissions",
+      "media_section": "review"
+    },
+    {
+      "id": "youtube-c8-BT6y_wYg",
+      "title": "Video 12 — title pending verification",
+      "description": "YouTube link supplied for the Eli Hanover media collection. Title and historical context pending review.",
+      "youtube_id": "c8-BT6y_wYg",
+      "type": "youtube",
+      "approved": true,
+      "collection": "new-submissions",
+      "media_section": "review"
+    },
+    {
+      "id": "youtube-y8AWFf7EAc4",
+      "title": "Video 13 — title pending verification",
+      "description": "YouTube link supplied for the Eli Hanover media collection. Title and historical context pending review.",
+      "youtube_id": "y8AWFf7EAc4",
+      "type": "youtube",
+      "approved": true,
+      "collection": "new-submissions",
+      "media_section": "review"
+    }
+  ],
+  "audio": [],
+  "photos": [
+    {
+      "id": "family-lakeside",
+      "title": "Family photograph — lakeside setting",
+      "description": "Woman seated on a rock beside a lake with mountains in the background.",
+      "src": "assets/images/public/family/family-lakeside-portrait.jpeg",
+      "alt": "Woman seated on a rock beside a lake with mountains in the background.",
+      "date": "",
+      "approved": true,
+      "category": "family"
+    },
+    {
+      "id": "family-outdoor",
+      "title": "Family photograph — outdoor memory",
+      "description": "Two women standing outside a brick building, one holding a small animal.",
+      "src": "assets/images/public/family/family-outdoor-memory.jpeg",
+      "alt": "Two women standing outside a brick building, one holding a small animal.",
+      "date": "",
+      "approved": true,
+      "category": "family"
+    },
+    {
+      "id": "photo-eth-por-0001",
+      "title": "Young Eli Ted Hanover",
+      "src": "assets/images/public/eli/ETH-POR-0001__Eli-Ted-Hanover-as-a-young-man-Baltimore.jpg",
+      "alt": "Young Eli Ted Hanover",
+      "category": "family",
+      "approved": true
+    },
+    {
+      "id": "photo-bal-his-0002",
+      "title": "Pussy Cat Club — archival image",
+      "src": "assets/images/public/baltimore/BAL-HIS-0002__pussy-cat-club.jpg",
+      "alt": "Pussy Cat Club — archival image",
+      "category": "baltimore",
+      "approved": true
+    },
+    {
+      "id": "photo-bal-his-0004",
+      "title": "Baltimore Inner Harbor at night",
+      "src": "assets/images/public/baltimore/BAL-HIS-0004__Baltimore-inner-harbor-night.png",
+      "alt": "Baltimore Inner Harbor at night",
+      "category": "baltimore",
+      "approved": true
+    },
+    {
+      "id": "photo-bal-his-0005",
+      "title": "Historic Baltimore — labeled 1906",
+      "src": "assets/images/public/baltimore/BAL-HIS-0005__baltimore_1906.jpg",
+      "alt": "Historic Baltimore — labeled 1906",
+      "category": "baltimore",
+      "approved": true
+    },
+    {
+      "id": "photo-box-her-0003",
+      "title": "Historical boxing record",
+      "src": "assets/images/public/boxing/BOX-HER-0003__boxing-record-2.jpg",
+      "alt": "Historical boxing record",
+      "category": "boxing",
+      "approved": true
+    },
+    {
+      "id": "photo-box-her-0009",
+      "title": "Boxing promotion poster",
+      "src": "assets/images/public/boxing/BOX-HER-0009__boxing-promoting-poster.png",
+      "alt": "Boxing promotion poster",
+      "category": "boxing",
+      "approved": true
+    },
+    {
+      "id": "photo-box-her-0014",
+      "title": "Memorial award",
+      "src": "assets/images/public/boxing/BOX-HER-0014__memorial-award.png",
+      "alt": "Memorial award",
+      "category": "memorials",
+      "approved": true
+    },
+    {
+      "id": "photo-han-eli-0001",
+      "title": "Eli and Frances Hanover",
+      "src": "assets/images/public/family/HAN-ELI-0001__Eli-and-Frances-Hanover.jpg",
+      "alt": "Eli and Frances Hanover",
+      "category": "family",
+      "approved": true
+    },
+    {
+      "id": "photo-han-eli-0003",
+      "title": "Eli and Frances — archival photograph",
+      "src": "assets/images/public/family/HAN-ELI-0003__Eli-Ted-and-wife-Frances-Hannah-Michaelson.jpg",
+      "alt": "Eli and Frances — archival photograph",
+      "category": "family",
+      "approved": true
+    }
+  ],
+  "legacy_youtube_candidates": [
+    {
+      "youtube_id": "z5_hxy2ET8Y",
+      "url": "https://www.youtube.com/watch?v=z5_hxy2ET8Y",
+      "review_status": "unverified-legacy-reference",
+      "approved": false
+    },
+    {
+      "youtube_id": "ss7ngc1VU-Q",
+      "url": "https://www.youtube.com/watch?v=ss7ngc1VU-Q",
+      "review_status": "unverified-legacy-reference",
+      "approved": false
+    },
+    {
+      "youtube_id": "dO751c8jkn0",
+      "url": "https://www.youtube.com/watch?v=dO751c8jkn0",
+      "review_status": "unverified-legacy-reference",
+      "approved": false
+    },
+    {
+      "youtube_id": "RaW-0fsXVBM",
+      "url": "https://www.youtube.com/watch?v=RaW-0fsXVBM",
+      "review_status": "unverified-legacy-reference",
+      "approved": false
+    },
+    {
+      "youtube_id": "EsKlte6AHqY",
+      "url": "https://www.youtube.com/watch?v=EsKlte6AHqY",
+      "review_status": "unverified-legacy-reference",
+      "approved": false
+    },
+    {
+      "youtube_id": "eV89InWOENc",
+      "url": "https://www.youtube.com/watch?v=eV89InWOENc",
+      "review_status": "unverified-legacy-reference",
+      "approved": false
+    },
+    {
+      "youtube_id": "SAYBNKV2shU",
+      "url": "https://www.youtube.com/watch?v=SAYBNKV2shU",
+      "review_status": "unverified-legacy-reference",
+      "approved": false
+    },
+    {
+      "youtube_id": "eUKBqphD3F4",
+      "url": "https://www.youtube.com/watch?v=eUKBqphD3F4",
+      "review_status": "unverified-legacy-reference",
+      "approved": false
+    },
+    {
+      "youtube_id": "wIYD42DV3Ro",
+      "url": "https://www.youtube.com/watch?v=wIYD42DV3Ro",
+      "review_status": "unverified-legacy-reference",
+      "approved": false
+    },
+    {
+      "youtube_id": "SH-CgNI4eQU",
+      "url": "https://www.youtube.com/watch?v=SH-CgNI4eQU",
+      "review_status": "unverified-legacy-reference",
+      "approved": false
+    },
+    {
+      "youtube_id": "jqe6WzW4h68",
+      "url": "https://www.youtube.com/watch?v=jqe6WzW4h68",
+      "review_status": "unverified-legacy-reference",
+      "approved": false
+    },
+    {
+      "youtube_id": "FkUeXTFFMz0",
+      "url": "https://www.youtube.com/watch?v=FkUeXTFFMz0",
+      "review_status": "unverified-legacy-reference",
+      "approved": false
+    },
+    {
+      "youtube_id": "9f1iE36bljs",
+      "url": "https://www.youtube.com/watch?v=9f1iE36bljs",
+      "review_status": "unverified-legacy-reference",
+      "approved": false
+    },
+    {
+      "youtube_id": "lEgk1X0mCSk",
+      "url": "https://www.youtube.com/watch?v=lEgk1X0mCSk",
+      "review_status": "unverified-legacy-reference",
+      "approved": false
+    },
+    {
+      "youtube_id": "0z-4IKjXkBk",
+      "url": "https://www.youtube.com/watch?v=0z-4IKjXkBk",
+      "review_status": "unverified-legacy-reference",
+      "approved": false
+    },
+    {
+      "youtube_id": "1X8CJOmpsyI",
+      "url": "https://www.youtube.com/watch?v=1X8CJOmpsyI",
+      "review_status": "unverified-legacy-reference",
+      "approved": false
+    },
+    {
+      "youtube_id": "1bFsN3NwmEY",
+      "url": "https://www.youtube.com/watch?v=1bFsN3NwmEY",
+      "review_status": "unverified-legacy-reference",
+      "approved": false
+    },
+    {
+      "youtube_id": "iD4M471IOro",
+      "url": "https://www.youtube.com/watch?v=iD4M471IOro",
+      "review_status": "unverified-legacy-reference",
+      "approved": false
+    },
+    {
+      "youtube_id": "LzGBQerkvWs",
+      "url": "https://www.youtube.com/watch?v=LzGBQerkvWs",
+      "review_status": "unverified-legacy-reference",
+      "approved": false
+    },
+    {
+      "youtube_id": "BKz2U4fvA4U",
+      "url": "https://www.youtube.com/watch?v=BKz2U4fvA4U",
+      "review_status": "unverified-legacy-reference",
+      "approved": false
+    },
+    {
+      "youtube_id": "9JhsUFuqbCM",
+      "url": "https://www.youtube.com/watch?v=9JhsUFuqbCM",
+      "review_status": "unverified-legacy-reference",
+      "approved": false
+    },
+    {
+      "youtube_id": "uFL4H9YNEjs",
+      "url": "https://www.youtube.com/watch?v=uFL4H9YNEjs",
+      "review_status": "unverified-legacy-reference",
+      "approved": false
+    },
+    {
+      "youtube_id": "njuiPnACoL0",
+      "url": "https://www.youtube.com/watch?v=njuiPnACoL0",
+      "review_status": "unverified-legacy-reference",
+      "approved": false
+    },
+    {
+      "youtube_id": "GGMHSbcd_qI",
+      "url": "https://www.youtube.com/watch?v=GGMHSbcd_qI",
+      "review_status": "unverified-legacy-reference",
+      "approved": false
+    },
+    {
+      "youtube_id": "fPr3yvkHYsE",
+      "url": "https://www.youtube.com/watch?v=fPr3yvkHYsE",
+      "review_status": "unverified-legacy-reference",
+      "approved": false
+    },
+    {
+      "youtube_id": "l3LFML_pxlY",
+      "url": "https://www.youtube.com/watch?v=l3LFML_pxlY",
+      "review_status": "unverified-legacy-reference",
+      "approved": false
+    },
+    {
+      "youtube_id": "RqvkefazYDA",
+      "url": "https://www.youtube.com/watch?v=RqvkefazYDA",
+      "review_status": "unverified-legacy-reference",
+      "approved": false
+    },
+    {
+      "youtube_id": "7-Ufz2Y6sOY",
+      "url": "https://www.youtube.com/watch?v=7-Ufz2Y6sOY",
+      "review_status": "unverified-legacy-reference",
+      "approved": false
+    },
+    {
+      "youtube_id": "zgvkeEbByVc",
+      "url": "https://www.youtube.com/watch?v=zgvkeEbByVc",
+      "review_status": "unverified-legacy-reference",
+      "approved": false
+    },
+    {
+      "youtube_id": "An5vbng_mHM",
+      "url": "https://www.youtube.com/watch?v=An5vbng_mHM",
+      "review_status": "unverified-legacy-reference",
+      "approved": false
+    },
+    {
+      "youtube_id": "ctKAGKVpCUU",
+      "url": "https://www.youtube.com/watch?v=ctKAGKVpCUU",
+      "review_status": "unverified-legacy-reference",
+      "approved": false
+    },
+    {
+      "youtube_id": "maA4QACDXOY",
+      "url": "https://www.youtube.com/watch?v=maA4QACDXOY",
+      "review_status": "unverified-legacy-reference",
+      "approved": false
+    },
+    {
+      "youtube_id": "ahEjU-BFS8c",
+      "url": "https://www.youtube.com/watch?v=ahEjU-BFS8c",
+      "review_status": "unverified-legacy-reference",
+      "approved": false
+    },
+    {
+      "youtube_id": "W4IKMX-5JLk",
+      "url": "https://www.youtube.com/watch?v=W4IKMX-5JLk",
+      "review_status": "unverified-legacy-reference",
+      "approved": false
+    },
+    {
+      "youtube_id": "X8DR0P0PV5c",
+      "url": "https://www.youtube.com/watch?v=X8DR0P0PV5c",
+      "review_status": "unverified-legacy-reference",
+      "approved": false
+    },
+    {
+      "youtube_id": "tNI9KQuJxqw",
+      "url": "https://www.youtube.com/watch?v=tNI9KQuJxqw",
+      "review_status": "unverified-legacy-reference",
+      "approved": false
+    },
+    {
+      "youtube_id": "jvCHk_kKpVI",
+      "url": "https://www.youtube.com/watch?v=jvCHk_kKpVI",
+      "review_status": "unverified-legacy-reference",
+      "approved": false
+    },
+    {
+      "youtube_id": "hUzJaokX_N8",
+      "url": "https://www.youtube.com/watch?v=hUzJaokX_N8",
+      "review_status": "unverified-legacy-reference",
+      "approved": false
+    },
+    {
+      "youtube_id": "s-9PEvmZok4",
+      "url": "https://www.youtube.com/watch?v=s-9PEvmZok4",
+      "review_status": "unverified-legacy-reference",
+      "approved": false
+    },
+    {
+      "youtube_id": "eAY6m0-MgPs",
+      "url": "https://www.youtube.com/watch?v=eAY6m0-MgPs",
+      "review_status": "unverified-legacy-reference",
+      "approved": false
+    },
+    {
+      "youtube_id": "NxpuT1SNurU",
+      "url": "https://www.youtube.com/watch?v=NxpuT1SNurU",
+      "review_status": "unverified-legacy-reference",
+      "approved": false
+    },
+    {
+      "youtube_id": "FmkwI5ItCFk",
+      "url": "https://www.youtube.com/watch?v=FmkwI5ItCFk",
+      "review_status": "unverified-legacy-reference",
+      "approved": false
+    }
+  ]
+}

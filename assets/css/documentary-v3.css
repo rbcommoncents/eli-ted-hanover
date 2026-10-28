@@ -1,0 +1,301 @@
+/* Eli Hanover v3 — shared two-theme documentary design system */
+:root{color-scheme:light;--eh-page:#f9f5ec;--eh-paper:#fffdf7;--eh-ink:#34302a;--eh-muted:#655e53;--eh-line:#e3dac5;--eh-gold:#a47a35;--eh-gold-light:#e1c88a;--eh-deep:#29251f;--eh-top:#f9f5ec;--eh-top-ink:#34302a;--eh-top-hover:#eee3ce;--eh-shadow:0 10px 30px rgba(30,25,18,.12)}
+html[data-eh-theme="dark"]{color-scheme:dark;--eh-page:#211f1c;--eh-paper:#302c27;--eh-ink:#f1e9da;--eh-muted:#c3b9a9;--eh-line:#64594a;--eh-gold:#e1c88a;--eh-gold-light:#e1c88a;--eh-deep:#191714;--eh-top:#24211e;--eh-top-ink:#f9f5ec;--eh-top-hover:#443d34;--eh-shadow:0 10px 30px rgba(0,0,0,.3)}
+html{scroll-padding-top:100px}html,body{max-width:100%}body{min-width:0}img,iframe,video{max-width:100%}img{height:auto}button,a{touch-action:manipulation}button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #b89450!important;outline-offset:3px}
+.eh-global-nav{background:var(--eh-top)!important;color:var(--eh-top-ink)!important;border-color:var(--eh-line)!important;box-shadow:var(--eh-shadow)!important}
+.eh-global-nav .eh-brand,.eh-global-nav .eh-links a{color:var(--eh-top-ink)!important}
+.eh-global-nav .eh-brand-text small{color:var(--eh-muted)!important}
+.eh-global-nav .eh-mark{background:var(--eh-deep)!important;color:#e1c88a!important}
+.eh-global-nav .eh-links a:hover,.eh-global-nav .eh-links a:focus-visible,.eh-global-nav .eh-links a[aria-current="page"]{background:var(--eh-top-hover)!important;color:var(--eh-top-ink)!important}
+.eh-global-nav .eh-links a.eh-featured{color:var(--eh-top-ink)!important;background:transparent!important;border:0!important;padding:11px 10px!important}
+.eh-global-nav .eh-toggle,.eh-theme-toggle{color:var(--eh-top-ink)!important;background:var(--eh-top-hover)!important;border:1px solid var(--eh-line)!important;border-radius:10px!important;min-height:44px;padding:9px 13px;font:inherit;font-weight:700;cursor:pointer}
+.eh-nav-inner{max-width:1380px!important}.eh-nav-inner .eh-theme-toggle{flex-shrink:0;font-size:13px;white-space:nowrap}.eh-global-nav .eh-links{gap:5px!important}.eh-global-nav .eh-links a{font-size:14px!important}
+/* Desktop four-destination navigation; unchanged destination URLs */
+@media(max-width:1120px){.eh-global-nav .eh-nav-inner{gap:8px!important}.eh-global-nav .eh-links{width:100%}.eh-global-nav .eh-toggle{display:inline-flex!important}.eh-global-nav .eh-links:not(.is-open){display:none!important}.eh-global-nav .eh-links.is-open{display:flex!important;flex-basis:100%;flex-direction:column;align-items:stretch!important;max-height:calc(100dvh - 100px);overflow:auto}.eh-global-nav .eh-links a{padding:12px 14px!important}}
+@media(max-width:420px){.eh-global-nav .eh-brand-text{font-size:13px}.eh-global-nav .eh-mark{width:36px;height:36px}.eh-global-nav .eh-nav-inner{width:calc(100% - 24px)!important}.eh-theme-toggle{font-size:12px!important;padding:8px!important}}
+/* Global theme overlays: preserve cinematic dark feature images and photographic sections */
+html[data-eh-theme="dark"] body{background:var(--eh-page);color:var(--eh-ink)}
+html[data-eh-theme="dark"] :where(.fh-intro,.fh-feature,.fh-gallery,.fh-memory,.fp-main,.fp-gallery,.content,.page-content,.archive-layout,.chapter-intro,.prologue,.eli-section:not(.eli-section--arena),.collection,.wrap.content){background-color:var(--eh-page)!important;color:var(--eh-ink)!important}
+html[data-eh-theme="dark"] :where(.fh-card,.fp-card,.tile,.media-card,.photo-card,.eli-boxer-card,.eli-rule-card,.eli-feature__card,.eli-timeline-box__item){background-color:var(--eh-paper)!important;color:var(--eh-ink)!important;border-color:var(--eh-line)!important}
+html[data-eh-theme="dark"] :where(.fh-intro,.fh-feature,.fh-gallery,.fh-memory,.fp-main,.fp-gallery,.collection,.eli-section:not(.eli-section--arena)) :where(h1,h2,h3,h4,p,li,figcaption,strong){color:inherit}
+html[data-eh-theme="dark"] :where(.fh-intro,.fh-feature,.fh-gallery,.fh-memory,.fp-main,.fp-gallery,.collection) a:not(.fh-button):not(.fp-button){color:var(--eh-gold)}
+html[data-eh-theme="dark"] :where(.fh-footer,.fp-footer,.footer,.site-footer){border-color:var(--eh-line)}
+html[data-eh-theme="light"] body{color:var(--eh-ink)}
+/* Simple guided path visible on homepage, avoids replacing archival content */
+.eh-start-here{background:var(--eh-page);color:var(--eh-ink);padding:clamp(28px,6vw,72px) 20px;border-bottom:1px solid var(--eh-line)}
+.eh-start-inner{max-width:1040px;margin:auto}.eh-start-here .eh-eyebrow{color:var(--eh-gold);font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;font-weight:800}.eh-start-here h2{color:var(--eh-ink)!important;font:clamp(2rem,5vw,3.5rem)/1.1 Georgia,serif;margin:.6rem 0}.eh-start-here p{color:var(--eh-muted);max-width:660px;line-height:1.7}
+.eh-choices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin-top:24px}.eh-choice{display:flex;flex-direction:column;gap:10px;text-decoration:none;background:var(--eh-paper);border:1px solid var(--eh-line);border-radius:14px;padding:25px;color:var(--eh-ink)!important;box-shadow:var(--eh-shadow);transition:transform .2s}.eh-choice:hover{transform:translateY(-3px)}.eh-choice strong{font-size:1.16rem;color:var(--eh-ink)}.eh-choice span{color:var(--eh-muted)}.eh-choice-primary{border-color:var(--eh-gold);background:var(--eh-deep)!important}.eh-choice-primary strong,.eh-choice-primary span{color:#f9f5ec!important}
+@media(max-width:640px){.eh-choices{grid-template-columns:1fr}.eh-start-here{padding:30px 16px}}
+@media(prefers-reduced-motion:reduce){.eh-choice{transition:none}.eh-choice:hover{transform:none}html{scroll-behavior:auto!important}}
+
+
+/* v3.0.1: semantic color reconciliation for legacy page templates.
+   Keep theme foreground and background paired, including all descendants. */
+html[data-eh-theme="dark"] {
+  --paper:var(--eh-page);--ink:var(--eh-ink);--border:var(--eh-line);
+  --gold:var(--eh-gold);--goldlight:var(--eh-gold-light);
+  --bh-cream:var(--eh-page);--bh-ink:var(--eh-ink);
+  --bh-border:var(--eh-line);--bh-muted:var(--eh-muted);
+}
+/* Standard interior hero: background and heading are always readable together. */
+html[data-eh-theme="dark"] .hero{background:linear-gradient(135deg,#302b25,#201d19)!important;color:#f7eddc!important;border-color:var(--eh-line)}
+html[data-eh-theme="dark"] .hero :is(h1,h2,p,.lede){color:#f7eddc!important}
+html[data-eh-theme="dark"] .hero .eyebrow{color:#e1c88a!important}
+html[data-eh-theme="light"] .hero{color:#34302a}
+html[data-eh-theme="light"] .hero :is(h1,h2,p,.lede){color:#34302a}
+/* Inset surfaces for chapter index, facts, chapter sidebar, annotation panels. */
+html[data-eh-theme="dark"] :is(.tile,.story-side,.ey-facts>div,.ey-photo-slot,.ey-timeline,.ring-facts>div,.ring-timeline,.ring-image-slot,.promoter-stats>div,.promoter-timeline,.legacy-facts>div,.legacy-timeline,.source-note,.notice){background:var(--eh-paper)!important;color:var(--eh-ink)!important;border-color:var(--eh-line)!important}
+html[data-eh-theme="dark"] :is(.tile,.story-side,.ey-facts>div,.ey-photo-slot,.ey-timeline,.ring-facts>div,.ring-timeline,.promoter-stats>div,.promoter-timeline,.legacy-facts>div,.legacy-timeline,.source-note,.notice) :is(h1,h2,h3,h4,p,strong,small,li){color:var(--eh-ink)!important}
+html[data-eh-theme="dark"] :is(.tile,.story-side,.ey-facts>div,.ey-timeline,.ring-timeline,.promoter-timeline,.legacy-timeline) :is(a,.number,span){color:var(--eh-ink)!important}
+html[data-eh-theme="dark"] :is(.tile,.story-side,.ey-facts>div,.ey-timeline,.ring-timeline,.promoter-timeline,.legacy-timeline) :is(a:hover,a[aria-current="page"],.number){color:var(--eh-gold)!important}
+html[data-eh-theme="dark"] :is(.ey-facts,.ring-facts,.promoter-stats,.legacy-facts) :is(small,span){color:var(--eh-muted)!important}
+html[data-eh-theme="dark"] .story-side a{border-color:var(--eh-line)!important}
+html[data-eh-theme="dark"] :is(.chapter-number,.eyebrow,.crumbs a,.chapter-nav a){color:var(--eh-gold)!important}
+html[data-eh-theme="dark"] :is(.crumbs,.story-hint){color:var(--eh-muted)!important}
+/* Baltimore contextual exhibit: light-theme creams must not remain behind dark-theme text. */
+html[data-eh-theme="dark"] :is(.bh-section:not(.bh-dark),.bh-warm,.bh-intro){background:var(--eh-page)!important;color:var(--eh-ink)!important}
+html[data-eh-theme="dark"] :is(.bh-section:not(.bh-dark),.bh-warm,.bh-intro) :is(h1,h2,h3,p){color:var(--eh-ink)!important}
+html[data-eh-theme="dark"] :is(.bh-context,.bh-block-story,.bh-card,.bh-jump){background:var(--eh-paper)!important;color:var(--eh-ink)!important;border-color:var(--eh-line)!important}
+html[data-eh-theme="dark"] :is(.bh-context,.bh-block-story,.bh-card,.bh-jump) :is(h2,h3,p,strong,span){color:var(--eh-ink)!important}
+html[data-eh-theme="dark"] :is(.bh-context,.bh-block-story,.bh-card,.bh-jump) a{color:var(--eh-gold)!important}
+html[data-eh-theme="dark"] :is(.bh-section:not(.bh-dark),.bh-warm,.bh-intro) :is(.bh-kicker,.bh-small-source,.bh-source-line,.bh-feature-image figcaption){color:var(--eh-muted)!important}
+html[data-eh-theme="dark"] :is(.bh-section:not(.bh-dark),.bh-warm,.bh-intro) :is(.bh-textlink,.bh-small-source a,.bh-source-line a){color:var(--eh-gold)!important}
+/* The intentionally cinematic dark sections retain their original contrast. */
+html[data-eh-theme="dark"] .bh-dark{background:#34302a!important;color:#f9f5ec!important}
+html[data-eh-theme="dark"] .bh-dark :is(h1,h2,h3,p){color:#f9f5ec!important}
+/* Text always readable in both theme's common cards. */
+html[data-eh-theme="light"] :is(.tile,.story-side,.ey-facts>div,.bh-card,.bh-context,.bh-block-story){color:#34302a}
+@media(prefers-reduced-motion:reduce){.tile,.bh-card{transition:none!important}}
+
+/* Dark theme only — Four Threads contrast */
+
+html[data-eh-theme="dark"] .theme-jump > a {
+    color: #f1e9da !important;
+}
+
+/* Cream highlight on hover, focus, and active interaction */
+html[data-eh-theme="dark"] .theme-jump > a:is(
+    :hover,
+    :focus,
+    :focus-visible,
+    :active
+) {
+    background: #f0e2c5 !important;
+    color: #34302a !important;
+    -webkit-text-fill-color: #34302a !important;
+}
+
+/* Number and arrow */
+html[data-eh-theme="dark"] .theme-jump > a:is(
+    :hover,
+    :focus,
+    :focus-visible,
+    :active
+) > span,
+html[data-eh-theme="dark"] .theme-jump > a:is(
+    :hover,
+    :focus,
+    :focus-visible,
+    :active
+) > b {
+    color: #76551f !important;
+    -webkit-text-fill-color: #76551f !important;
+}
+
+/* ======================================================
+   ELI HANOVER V3 — DARK THEME CHAPTER CONTRAST
+   Chapters 3, 4, and 5
+   ====================================================== */
+
+/* Light archival panels retain dark text in dark mode */
+html[data-eh-theme="dark"] :is(
+  .sea-facts > div,
+  .sea-archive,
+  .sea-family,
+  .sea-timeline,
+  .sea-questions,
+  .promoter-stats > div,
+  .promoter-display,
+  .promoter-timeline,
+  .promoter-questions,
+  .legacy-facts > div,
+  .legacy-timeline,
+  .legacy-archive,
+  .legacy-questions,
+  .eth-ch5-figure
+) {
+  color: #34302a !important;
+}
+
+/* Headings and narrative text inside cream panels */
+html[data-eh-theme="dark"] :is(
+  .sea-facts > div,
+  .sea-archive,
+  .sea-family,
+  .sea-timeline,
+  .sea-questions,
+  .promoter-stats > div,
+  .promoter-display,
+  .promoter-timeline,
+  .promoter-questions,
+  .legacy-facts > div,
+  .legacy-timeline,
+  .legacy-archive,
+  .legacy-questions,
+  .eth-ch5-figure
+) :is(h1, h2, h3, h4, p, li, strong) {
+  color: #34302a !important;
+}
+
+/* Secondary text remains readable */
+html[data-eh-theme="dark"] :is(
+  .sea-archive,
+  .sea-family,
+  .sea-questions,
+  .promoter-display,
+  .promoter-questions,
+  .legacy-archive,
+  .legacy-questions
+) :is(small, figcaption) {
+  color: #62584b !important;
+}
+
+/* Preserve purposely dark archival artwork */
+html[data-eh-theme="dark"] :is(
+  .sea-placeholder,
+  .promoter-poster,
+  .legacy-emblem
+),
+html[data-eh-theme="dark"] :is(
+  .sea-placeholder,
+  .promoter-poster
+) :is(h2, h3, p, strong, small) {
+  color: #fff8e8 !important;
+}
+
+/* Preserve the gold lettering of the legacy emblem */
+html[data-eh-theme="dark"] .legacy-emblem :is(
+  span, strong
+) {
+  color: #e1c88a !important;
+}
+
+/* Ensure introductions on dark backgrounds are readable */
+html[data-eh-theme="dark"] :is(
+  .sea-intro,
+  .promoter-intro,
+  .legacy-intro
+) {
+  color: #f1e9da !important;
+}
+
+/* ==================================================
+   V3 — CHAPTER 5 FACT CARD CONTRAST
+   DARK THEME ONLY
+   ================================================== */
+
+html[data-eh-theme="dark"] .legacy-facts > div {
+    background-color: #302c27 !important;
+    color: #f1e9da !important;
+    border-color: #64594a !important;
+}
+
+/* Main values: 1974, 1975, Eli Hanover Award */
+html[data-eh-theme="dark"] .legacy-facts > div :is(
+    strong, b, h2, h3, span
+) {
+    color: #f9f5ec !important;
+    -webkit-text-fill-color: #f9f5ec !important;
+}
+
+/* Supporting descriptions */
+html[data-eh-theme="dark"] .legacy-facts > div :is(p, small) {
+    color: #d3c4af !important;
+}
+
+/* Small labels */
+html[data-eh-theme="dark"] .legacy-facts > div > small {
+    color: #e1c88a !important;
+}
+
+/* ==========================================================
+   ELI HANOVER V3 — LIFE STORY CONTRAST RECONCILIATION
+   DARK THEME ONLY
+   ========================================================== */
+
+/* Dark archival timelines and information panels */
+html[data-eh-theme="dark"] :is(
+    .ey-timeline,
+    .ring-timeline,
+    .sea-timeline,
+    .promoter-timeline,
+    .legacy-timeline
+) {
+    background-color: #302c27 !important;
+    color: #f1e9da !important;
+    border-color: #64594a !important;
+}
+
+/* Titles, years, labels, and entries inside timelines */
+html[data-eh-theme="dark"] :is(
+    .ey-timeline,
+    .ring-timeline,
+    .sea-timeline,
+    .promoter-timeline,
+    .legacy-timeline
+) :is(
+    h1, h2, h3, h4, h5,
+    strong, b, dt, time, li, span
+) {
+    color: #f1e9da !important;
+    -webkit-text-fill-color: #f1e9da !important;
+}
+
+/* Supporting narrative text */
+html[data-eh-theme="dark"] :is(
+    .ey-timeline,
+    .ring-timeline,
+    .sea-timeline,
+    .promoter-timeline,
+    .legacy-timeline
+) :is(p, dd, small) {
+    color: #d3c4af !important;
+}
+
+/* Dark fact cards */
+html[data-eh-theme="dark"] :is(
+    .ey-facts,
+    .ring-facts,
+    .sea-facts,
+    .promoter-stats,
+    .legacy-facts
+) > div {
+    background-color: #302c27 !important;
+    color: #f1e9da !important;
+    border-color: #64594a !important;
+}
+
+/* Important values in fact cards */
+html[data-eh-theme="dark"] :is(
+    .ey-facts,
+    .ring-facts,
+    .sea-facts,
+    .promoter-stats,
+    .legacy-facts
+) > div :is(
+    strong, b, h2, h3, span
+) {
+    color: #f9f5ec !important;
+    -webkit-text-fill-color: #f9f5ec !important;
+}
+
+/* Secondary descriptions */
+html[data-eh-theme="dark"] :is(
+    .ey-facts,
+    .ring-facts,
+    .sea-facts,
+    .promoter-stats,
+    .legacy-facts
+) > div :is(p, small) {
+    color: #d3c4af !important;
+}
