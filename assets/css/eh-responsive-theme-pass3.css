@@ -35,3 +35,40 @@ html[data-eh-theme="dark"] .eh-media-page .menu a:is(:hover,:focus-visible){back
 html[data-eh-theme="dark"] .documentary-site .story-copy > p:not(.section-kicker){color:#d9cbbb!important}
 html[data-eh-theme="dark"] .documentary-site .story-copy > .story-standfirst{color:#e1c88a!important}
 @media(prefers-reduced-motion:reduce){.fp-tile,.media-card,.photo-card{transition:none!important}}
+
+
+/* ==========================================================
+   ELI HANOVER — HOMEPAGE LIGHT SECTION CONTRAST
+   Dark theme only | Production correction
+   ========================================================== */
+
+/* The timeline retains its cream background */
+html[data-eh-theme="dark"] .time-interlude,
+html[data-eh-theme="dark"] .time-interlude h2,
+html[data-eh-theme="dark"] .time-interlude h3,
+html[data-eh-theme="dark"] .time-interlude p,
+html[data-eh-theme="dark"] .time-interlude li {
+    color: #34302a !important;
+}
+
+/* Family section also retains its cream background */
+html[data-eh-theme="dark"] .story.story-family,
+html[data-eh-theme="dark"] .story.story-family h1,
+html[data-eh-theme="dark"] .story.story-family h2,
+html[data-eh-theme="dark"] .story.story-family h3,
+html[data-eh-theme="dark"] .story.story-family p {
+    color: #34302a !important;
+}
+
+/* Preserve gold accents on cream surfaces */
+html[data-eh-theme="dark"] .time-interlude .eyebrow,
+html[data-eh-theme="dark"] .story.story-family .eyebrow,
+html[data-eh-theme="dark"] .story.story-family a {
+    color: #956a22 !important;
+}
+
+/* Ensure the timeline heading stays readable */
+html[data-eh-theme="dark"] .time-interlude h2,
+html[data-eh-theme="dark"] .story.story-family h2 {
+    -webkit-text-fill-color: #34302a !important;
+}
